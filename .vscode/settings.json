@@ -1,0 +1,8 @@
+{
+    "window.autoDetectColorScheme": false,
+    "window.closeWhenEmpty": false,
+    "terminal.integrated.accessibleViewPreserveCursorPosition": true,
+    "terminal.integrated.defaultProfile.linux": "",
+    "terminal.integrated.env.linux": {},
+    "workbench.statusBar.visible": true,
+}

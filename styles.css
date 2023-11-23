@@ -1,0 +1,145 @@
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background: white;
+    display: block;
+}
+
+
+/* NavBar's CSS styles*/
+
+.navigation-bar{
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    min-width: auto;
+    height: 50px;
+    flex-direction: row-reverse;
+}
+
+.navBarx2{
+    float: right;
+    padding-left: 32px;
+}
+
+.navBar-img, .navBar-asearch{
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+    cursor: pointer;
+    padding-right: 10px;
+}
+
+a.link1, a.link2{
+    text-decoration: none;
+    color: black;
+}
+
+a.link1:hover, a.link2:hover{
+    text-decoration: underline;
+}
+
+
+/* Logo's CSS styles*/
+
+.center-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-heigth{
+    max-height: 293px;
+    min-height: 293px;
+}
+
+.logo-sizing{
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.logo-space{
+    position: relative;
+    margin-top: auto;
+    height: 100%;
+}
+
+.logo-img{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+
+.imgSet{
+    width: 272px;
+    height: 92px;
+}
+
+.textArea{
+    position: relative;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+    padding-top: 6px;
+    margin-top: 6px;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    resize: none;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    z-index: 3;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 20px;
+}
+
+#searchBar{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    overflow-x: hidden;
+    flex: 100%;
+    border: none;
+    background-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    word-wrap: break-word;
+    padding: 0;
+    margin: 0;
+    resize: none;
+}
+
+.buttons{
+    display: block;
+    text-align: -webkit-center;
+}
+
+input[type="submit"]{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: black;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+    line-height: 30px;
+    min-width: 55px;
+    height: 36px;
+    margin: 11px 4px;
+    padding: 0 16px;
+}
+
+/* Form CSS styling */
