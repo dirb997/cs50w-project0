@@ -102,7 +102,13 @@ a.link1:hover, a.link2:hover{
     border-radius: 20px;
 }
 
-#searchBar{
+.buttons{
+    display: block;
+    text-align: -webkit-center;
+}
+
+input[type="text"]{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     font-size: 16px;
@@ -119,11 +125,6 @@ a.link1:hover, a.link2:hover{
     padding: 0;
     margin: 0;
     resize: none;
-}
-
-.buttons{
-    display: block;
-    text-align: -webkit-center;
 }
 
 input[type="submit"]{
