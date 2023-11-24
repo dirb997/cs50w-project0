@@ -125,6 +125,7 @@ input[type="text"]{
     padding: 0;
     margin: 0;
     resize: none;
+    padding-left: 20px;
 }
 
 input[type="submit"]{
@@ -132,7 +133,7 @@ input[type="submit"]{
     border: 1px solid #f8f9fa;
     color: black;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 16px;
     cursor: pointer;
     text-align: center;
     user-select: none;
@@ -141,6 +142,10 @@ input[type="submit"]{
     height: 36px;
     margin: 11px 4px;
     padding: 0 16px;
+    padding-bottom: 10px;
 }
 
-/* Form CSS styling */
+/* Img CSS styling */
+img{
+    cursor: pointer;
+}
