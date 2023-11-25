@@ -1,5 +1,5 @@
-let logo = document.getElementById('logo');
+let logoEN = document.getElementById('logoEN');
 
-logo.addEventListener('click', () => {
+logoEN.addEventListener('click', () => {
     window.location = "./index.html";
 })

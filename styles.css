@@ -129,10 +129,11 @@ input[type="text"]{
 }
 
 input[type="submit"]{
-    background-color: #f8f9fa;
+    background-color: #b4c6d8;
     border: 1px solid #f8f9fa;
     color: black;
     border-radius: 5px;
+    border: 1px solid #616263;
     font-size: 16px;
     cursor: pointer;
     text-align: center;
@@ -148,4 +149,10 @@ input[type="submit"]{
 /* Img CSS styling */
 img{
     cursor: pointer;
+}
+
+
+.langChange{
+    display: flex;
+    justify-content: center;
 }
